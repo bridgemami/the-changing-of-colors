@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@keyframes one {
+  0%   {background-color: blue;}
+  33.34%  {background-color: purple;}
+  50.01%  {background-color: red;}
+  66.68% {background-color: orange;}
+  83.35% {background-color: yellow;}
+  100% {background-color: green;}
+}
+@keyframes two {
+  0%   {background-color: green;}
+  33.34%  {background-color: blue;}
+  50.01%  {background-color: purple;}
+  66.68% {background-color: red;}
+  83.35% {background-color: orange;}
+  100% {background-color: yellow;}
+}
+@keyframes three {
+  0%   {background-color: yellow;}
+  33.34%  {background-color: green;}
+  50.01%  {background-color: blue;}
+  66.68% {background-color: purple;}
+  83.35% {background-color: red;}
+  100% {background-color: orange;}
+}
+
+@keyframes four {
+  0%   {background-color: orange;}
+  33.34%  {background-color: yellow;}
+  50.01%  {background-color: green;}
+  66.68% {background-color: blue;}
+  83.35% {background-color: purple;}
+  100% {background-color: red;}
+}
+
+@keyframes five {
+  0%   {background-color: red;}
+  33.34%  {background-color: orange;}
+  50.01%  {background-color: yellow;}
+  66.68% {background-color: green;}
+  83.35% {background-color: blue;}
+  100% {background-color: purple;}
+}
+
+@keyframes six {
+  0%   {background-color: purple;}
+  33.34%  {background-color: red;}
+  50.01%  {background-color: orange;}
+  66.68% {background-color: yellow;}
+  83.35% {background-color: green;}
+  100% {background-color: blue;}
+}
+
+#one {
+  background-color: blue;
+  height: 16.67vh;
+  animation-name: one;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#two {
+  background-color: green;
+  height: 16.67vh;
+  animation-name: two;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#three {
+  background-color: yellow;
+  height: 16.67vh;
+  animation-name: three;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#four {
+  background-color: orange;
+  height: 16.67vh;
+  animation-name: four;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#five {
+  background-color: red;
+  height: 16.67vh;
+  animation-name: five;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#six {
+  background-color: purple;
+  height: 16.67vh;
+  animation-name: six;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
